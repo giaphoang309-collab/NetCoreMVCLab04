@@ -1,0 +1,20 @@
+﻿<div class="panel panel-primary" style="border: 1px solid #337ab7; margin-top: 20px;">
+    <div class="panel-heading" style="background-color: #337ab7; color: white; padding: 10px; font-weight: bold;">
+        Sản phẩm nổi bật (Load từ ViewComponent)
+    </div>
+    <div class="panel-body" style="padding: 15px;">
+        <div class="row">
+            @for (int i = 1; i <= 3; i++)
+            {
+                <div class="col-md-4 text-center">
+                    <div class="thumbnail" style="border: 1px solid #ddd; padding: 10px; border-radius: 4px;">
+                        <img src="~/images/noi-com.jpg" alt="Sản phẩm" style="height:150px; object-fit:contain;" />
+                        <div class="caption">
+                            <h5 style="font-size: 14px; font-weight: bold; margin-top: 10px;">Nồi cơm điện cao tần Nagakawa NAG0102</h5>
+                        </div>
+                    </div>
+                </div>
+            }
+        </div>
+    </div>
+</div>
